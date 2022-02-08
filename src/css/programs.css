@@ -1,0 +1,19 @@
+.programs {
+  padding: 100px 0 186px;
+}
+.programs__titlt {
+  margin-bottom: 20px;
+}
+.programs__col {
+  width: 25%;
+}
+.programs__col-info {
+  width: 100%;
+  padding: 28px 0;
+  text-align: center;
+  border: 1px solid #DEDEFF;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=programs.css.map */

@@ -1,0 +1,104 @@
+.programs{
+  padding: 100px 0 186px;
+
+  &__row{
+    display: flex;
+  }
+
+  &__title{
+    margin-bottom: 20px;
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    color: #23283B;
+  }
+
+  &__button{
+    display: inline-block;
+  }
+  &__col{
+    width: 25%;
+    text-align: center;
+    &-info{
+      width: 100%;
+      padding: 28px 20px;
+      text-align: center;
+      border: 1px solid #DEDEFF;
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin-bottom: 32px;
+      height: 212px;
+    }
+    &-price{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 21px;
+      color: #3035C4;
+      margin-bottom: 16px;
+      height: 71px;
+      span{
+        font-size: 40px;
+        line-height: 48px;
+      }
+      &_last{
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 27px;
+      }
+    }
+    &-descr{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      color: #23283B;
+    }
+
+    &-list{
+      display: flex;
+      flex-direction: column;
+      row-gap: 12px;
+      margin-bottom: 40px;
+      text-align: left;
+      height: 162px;
+    }
+    &-item {
+      display: flex;
+      column-gap: 16px;
+      i {
+        color: #E6514A;
+
+      }
+
+      &-text {
+        font-family: Lato, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        color: #23283B;
+        margin-left: 16px;
+
+      }
+    }
+    &-link{
+      font-family: Roboto,sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 16px;
+      color: #3035C4;
+      margin-top: 20px;
+      display: inline-block;
+
+    }
+  }
+}
